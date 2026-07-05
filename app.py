@@ -27,8 +27,8 @@ st.markdown("**Cuenta:** 20231900117")
 st.divider()
 
 # Cargar modelos
-kmeans = joblib.load("models/kmeans_riesgo_actuarial.pkl")
-svm = joblib.load("models/svm_riesgo_actuarial.pkl")
+kmeans = joblib.load("modelo/kmeans_riesgo_actuarial.pkl")
+svm = joblib.load("modelo/svm_riesgo_actuarial.pkl")
 
 # Aquí continúa el resto de tu código...
 
